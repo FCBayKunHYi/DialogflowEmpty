@@ -1,0 +1,12 @@
+{
+  "displayName": "u console",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 91834063279,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "startPlaybook": "Default Generative Agent"
+}
