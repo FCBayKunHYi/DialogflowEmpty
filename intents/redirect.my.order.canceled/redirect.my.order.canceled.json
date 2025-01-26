@@ -1,0 +1,10 @@
+{
+  "name": "8c67a015-bda8-436f-a2fc-cb973a9ecd87",
+  "displayName": "redirect.my.order.canceled",
+  "parameters": [ {
+    "id": "ordernumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

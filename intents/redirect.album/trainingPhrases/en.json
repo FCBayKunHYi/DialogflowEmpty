@@ -1,0 +1,74 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "\"",
+      "auto": true
+    }, {
+      "text": "Hits",
+      "parameterId": "album",
+      "auto": true
+    }, {
+      "text": " on ",
+      "auto": true
+    }, {
+      "text": "MP3",
+      "parameterId": "merch",
+      "auto": true
+    }, {
+      "text": "\"",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "\"Give me the ",
+      "auto": true
+    }, {
+      "text": "Greatest Hits",
+      "parameterId": "album",
+      "auto": true
+    }, {
+      "text": " CD\"",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "\"I want the ",
+      "auto": true
+    }, {
+      "text": "Greatest Hits",
+      "parameterId": "album",
+      "auto": true
+    }, {
+      "text": " Digital Album\"",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "\"",
+      "auto": true
+    }, {
+      "text": "Live",
+      "parameterId": "album",
+      "auto": true
+    }, {
+      "text": " Album\"",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hits",
+      "parameterId": "album",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
