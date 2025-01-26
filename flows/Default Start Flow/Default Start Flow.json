@@ -7,117 +7,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Welcome, I am the virtual agent of G-Records, a fictional rock label. You can order artists merchandise, ask questions about your order or shipping, and I can tell you more which artists are currently signed with us. How can I help?" ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Which artists?"
-            }, {
-              "text": "Which products?"
-            }, {
-              "text": "About my order..."
-            } ],
-            "type": "chips"
-          } ] ]
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
         },
         "languageCode": "en"
       } ]
     },
-    "name": "6e89c1ad-e285-4fc1-bf8b-03a160cb10e6"
-  }, {
-    "intent": "redirect.artists.overview",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "1717362d-3541-45a6-a018-ad462da53342"
-  }, {
-    "intent": "redirect.product.overview",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "b1e18d4b-2794-438a-aa37-27f32300cf66"
-  }, {
-    "intent": "redirect.shirts",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "e9741676-6265-4593-85bb-2e9f8bad5ee8"
-  }, {
-    "intent": "redirect.music",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "58d68d40-cd25-4d5e-ad7a-fd4c327bcd3b"
-  }, {
-    "intent": "redirect.product",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "40873bad-2daa-466d-aac0-19cc8bffe363"
-  }, {
-    "intent": "redirect.product.of.artist",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Catalog",
-    "name": "4098e9df-7011-459e-9a8d-2ce2ff453eb6"
-  }, {
-    "intent": "redirect.refund.info",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Customer Care",
-    "name": "807ea49f-77c7-44b8-bbe3-af025ec371ed"
-  }, {
-    "intent": "redirect.shipping.info",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Customer Care",
-    "name": "6686ab7a-1e70-4c30-ad0b-488863dfac8d"
-  }, {
-    "intent": "redirect.swapping.info",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Customer Care",
-    "name": "489f92cb-bf34-48ef-9e5f-0b8fea128fd9"
-  }, {
-    "intent": "redirect.my.order",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "My Order",
-    "name": "81f3acaf-738f-4f35-8133-f40d917fa65c"
-  }, {
-    "intent": "redirect.my.order.canceled",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "My Order",
-    "name": "17917462-08c3-486d-8952-c2a2e84ddd95"
-  }, {
-    "intent": "redirect.my.order.status",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "My Order",
-    "name": "a36d669c-2fb9-44e3-8daf-088cd6629a3b"
-  }, {
-    "intent": "redirect.end",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "End Session",
-    "name": "3d4686bc-28e0-4527-9b21-b7184b9ca2ce"
+    "name": "eaf12e66-026b-431d-abf2-03080206f436"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -129,7 +24,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "4eaacc02-bad1-4940-bbcc-d56f13116a50"
+    "name": "6719f381-b1e8-4ee0-bc62-5e608b1bd977"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -140,7 +35,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "7748d1a6-4d32-48d1-ae48-3079265707e5"
+    "name": "63aa8e1d-b604-4e83-86c5-660f3d335aae"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
