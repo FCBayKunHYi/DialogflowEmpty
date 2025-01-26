@@ -1,5 +1,5 @@
 {
-  "displayName": "u console",
+  "displayName": "16mb",
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "projectNumber": 91834063279,
@@ -8,5 +8,15 @@
     
     }
   },
-  "startPlaybook": "Default Generative Agent"
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
+  "genAppBuilderSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "startPlaybook": "Default Generative Agent",
+  "webClientSettings": {
+  
+  }
 }
